@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootsrtrap 5.2.2  CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Remix-Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ajax -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>omexo</title>
+</head>
+
+<body>
+    <!-- Page 1 -->
+    <section>
+        <div class="head">
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search Courses">
+            </div>
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="12" height="12">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"
+                        fill="rgba(132,136,160,1)" />
+                </svg>
+            </div>
+            <div class="container">
+                <div class="contact-container">
+                    <div class="mail">
+                        <div class="mail-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z"
+                                    fill="rgba(255,255,255,1)" />
+                            </svg>
+                        </div>
+                        <p>support@example.com</p>
+                    </div>
+                    <div class="phone">
+                        <div class="phone-icon">
+                            <i class="ri-phone-fill"></i>
+                        </div>
+                        <p>+98 01235 6789</p>
+                    </div>
+                    <div class="head-social-links">
+                        <i class="ri-twitter-fill"></i>
+                        <i class="ri-linkedin-fill"></i>
+                        <i class="ri-facebook-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav>
+            <div class="navbar">
+                <img src="image/logo.png" alt="omexo">
+                <div class="navbar-links">
+                    <a href="#" class="active">Home</a>
+                    <a href="#categories">Pages</a>
+                    <a href="#course">Courses</a>
+                    <a href="#webinar">Webinars</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#">Contact</a>
+                    <i class="ri-shopping-cart-2-fill"></i>
+                    <span>
+                        <button>Login | Register</button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <img src="image/banner-1.jpg" alt="banner">
+            <div class="banner-overlay">
+                <p>START LEARNING FROM HOME</p>
+                <h2>Connect With Our Expert And<br> Start Learning Today</h2>
+                <button class="active">
+                    FIND COURSES
+                </button>
+                <button>
+                    START FREE TRIAL
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Page 2 -->
+    <section id="categories">
+        <div class="heading">
+            <p>
+                CATEGORIES
+            </p>
+            <h2>
+                Popular Categories
+            </h2>
+        </div>
+        <!-- categories-card  -->
+        <div class="container-fluid">
+            <div class="category-card">
+                <div class="row justify-content-around">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 1 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/cat-1.jpg" alt="development">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Development
+                                </h3>
+                                <p>
+                                    6 Courses
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 2 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/cat-2.jpg" alt="business">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Business
+                                </h3>
+                                <p>
+                                    8 Courses
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 3 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/cat-3.jpg" alt="health & fitness">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Health & Fitness
+                                </h3>
+                                <p>
+                                    6 Courses
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 4 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/cat-4.jpg" alt="web design">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Web Design
+                                </h3>
+                                <p>
+                                    7 Courses
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button>ALL CATEGORIES</button>
+        </div>
+    </section>
+    <!-- Page 3 -->
+    <section id="course" class="course">
+        <div class="course-heading">
+            <p>
+                COURSES
+            </p>
+            <h2>
+                Explore Popular Courses
+            </h2>
+        </div>
+        <!-- course-card  -->
+        <div class="container-fluid">
+            <div class="course-card">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 1 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-1.jpg" alt="nutrition">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    $15.00
+                                </h3>
+                                <h3>
+                                    Nutrition: Build Your Perfect<br>Diet & Meal Plan
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(1 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>04h</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 2 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-2.jpg" alt="wordpress">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    $29.00
+                                </h3>
+                                <h3>
+                                    WordPress Master Class for<br>Beginners
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(2 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>07h 30m</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 3 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-3.jpg" alt="JavaScript">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    Free
+                                </h3>
+                                <h3>
+                                    The Complete JavaScript<br>Course 2022
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(7 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>13h 20m 20s</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>9</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Page 4 -->
+                <div class="row justify-content-around">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 4 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-4.jpg" alt="photoshop">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    $19.00
+                                </h3>
+                                <h3>
+                                    Ultimate Photoshop Training:<br>From Beginner
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(1 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>13h 20m 20s</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 5 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-5.jpg" alt="design">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    $12.00
+                                </h3>
+                                <h3>
+                                    User Experience Design<br>Essentials
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(1 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>15h 20m</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 6 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-6.jpg" alt="3D modelling">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="price">
+                                    $17.00
+                                </h3>
+                                <h3>
+                                    Complete Blender Creator:<br>Learn 3D Modelling
+                                </h3>
+                                <div class="rating">
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <span class="fa fa-star fa checked"></span>
+                                    <p>(3 Review)</p>
+                                </div>
+                                <hr>
+                                <div class="card-box-footer">
+                                    <div class="duration">
+                                        <i class="ri-time-line"></i>
+                                        <p>15h 20m</p>
+                                    </div>
+                                    <div class="user">
+                                        <i class="ri-user-line"></i>
+                                        <p>5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="course-btn">
+            <button>ALL COURSES</button>
+        </div>
+    </section>
+    <!-- Page 5 -->
+    <section id="webinar">
+        <div class="top">
+        </div>
+        <div class="base">
+            <img src="image/bg-2.png" alt="Background">
+            <div class="overlay-wrapper">
+                <div class="left">
+                    <img src="image/img-1.jpg" alt="">
+                </div>
+                <div class="right">
+                    <h6>
+                        LIMITED TIME OFFER
+                    </h6>
+                    <h2>
+                        50% Discount On All Of Our<br>New & Upcoming Courses
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, maxime iste officiis architecto
+                        possimus tenetur reiciendis dolorum voluptas at? Asperiores amet omnis iure blanditiis eveniet!
+                    </p>
+                    <div class="time-available">
+                        <div class="days">
+                            <h5>
+                                430
+                            </h5>
+                            <p>
+                                DAYS
+                            </p>
+                        </div>
+                        <div class="hours">
+                            <h5>
+                                09
+                            </h5>
+                            <p>
+                                HOURS
+                            </p>
+                        </div>
+                        <div class="minutes">
+                            <h5>
+                                09
+                            </h5>
+                            <p>
+                                MINUTES
+                            </p>
+                        </div>
+                        <div class="seconds">
+                            <h5>
+                                57
+                            </h5>
+                            <p>
+                                SECONDS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn-webinar">
+                        <button>ENROLL NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page 6 -->
+    <section>
+        <div class="head-testimonial">
+            <p>
+                TESTIMONIAL
+            </p>
+            <h2>
+                What Says Our Students
+            </h2>
+        </div>
+        <div class="container-fluid">
+            <div class="review-card">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 1 -->
+                        <div class="card-box">
+                            <h1>
+                                <i class="ri-double-quotes-r"></i>
+                            </h1>
+                            <div class="rating">
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quae maiores fugit ullam
+                                quo blanditiis unde incidunt labore iure non, neque natus dolor vel reprehenderit.
+                            </p>
+                            <div class="user">
+                                <div class="profile-avatar">
+                                    <img src="image/client-1.jpg" alt="adam">
+                                </div>
+                                <div class="details">
+                                    <h5>
+                                        Adam Smith
+                                    </h5>
+                                    <p>
+                                        Grapics Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 2 -->
+                        <div class="card-box active-card-box">
+                            <h1>
+                                <i class="ri-double-quotes-r"></i>
+                            </h1>
+                            <div class="rating">
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quae maiores fugit ullam
+                                quo blanditiis unde incidunt labore iure non, neque natus dolor vel reprehenderit.
+                            </p>
+                            <div class="user">
+                                <div class="profile-avatar">
+                                    <img src="image/client-1.jpg" alt="adam">
+                                </div>
+                                <div class="details">
+                                    <h5>
+                                        Adam Smith
+                                    </h5>
+                                    <p>
+                                        Grapics Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 3 -->
+                        <div class="card-box">
+                            <h1>
+                                <i class="ri-double-quotes-r"></i>
+                            </h1>
+                            <div class="rating">
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                                <span class="fa fa-star fa checked"></span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut quae maiores fugit ullam
+                                quo blanditiis unde incidunt labore iure non, neque natus dolor vel reprehenderit.
+                            </p>
+                            <div class="user">
+                                <div class="profile-avatar">
+                                    <img src="image/client-1.jpg" alt="adam">
+                                </div>
+                                <div class="details">
+                                    <h5>
+                                        Adam Smith
+                                    </h5>
+                                    <p>
+                                        Grapics Designer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page 7 -->
+    <section>
+        <div class="cover">
+            <div class="cover-data">
+                <h3>
+                    Subscribe Our Newsletter
+                </h3>
+                <div class="input">
+                    <input type="text" placeholder="Your email address">
+                    <button>
+                        SUSBCRIBE NOW
+                    </button>
+                </div>
+            </div>
+            <img src="image/bg-2.png" alt="bg">
+        </div>
+        <div class="content">
+            <!-- Col 1 -->
+            <div class="left">
+                <h2>
+                    Why Choose Us?
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi dolores, quis error alias
+                    mollitia architecto necessitatibus ipsam odio laboriosam. Nam, porro hic. Modi ipsum vel molestiae,
+                    voluptatum repellendus placeat.</p>
+                <button>
+                    LEARN MORE
+                </button>
+            </div>
+            <!-- Col 2 -->
+            <div class="advantages">
+                <div class="row-1">
+                    <div class="topic">
+                        <h1>
+                            <i class="ri-award-fill"></i>
+                        </h1>
+                        <h4>
+                            High Quality Courses
+                        </h4>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas porro vero aperiam sint
+                    dolores fuga quisquam qui optio quidem. Eos numquam architecto tenetur voluptatem!</p>
+                <div class="row-1">
+                    <div class="topic">
+                        <h1>
+                            <i class="ri-file-shield-2-line"></i>
+                        </h1>
+                        <h4>
+                            Life Time Access
+                        </h4>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas porro vero aperiam sint
+                    dolores fuga quisquam qui optio quidem. Eos numquam architecto tenetur voluptatem!</p>
+            </div>
+            <!-- Col 3 -->
+            <div class="advantages">
+                <div class="row-1">
+                    <div class="topic">
+                        <h1>
+                            <i class="ri-user-2-line"></i>
+                        </h1>
+                        <h4>
+                            Expert Instructors
+                        </h4>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas porro vero aperiam sint
+                    dolores fuga quisquam qui optio quidem. Eos numquam architecto tenetur voluptatem!</p>
+                <div class="row-1">
+                    <div class="topic">
+                        <h1>
+                            <i class="ri-phone-fill"></i>
+                        </h1>
+                        <h4>
+                            Dedicated Support
+                        </h4>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas porro vero aperiam sint
+                    dolores fuga quisquam qui optio quidem. Eos numquam architecto tenetur voluptatem!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Page 8 -->
+    <section class="instructor">
+        <div class="heading">
+            <p>
+                INSTRUCTORS
+            </p>
+            <h2>
+                Our Expert Instructors
+            </h2>
+        </div>
+        <!-- instructor-card  -->
+        <div class="container-fluid">
+            <div class="instructor-card">
+                <div class="row justify-content-around">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 1 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/instructor-1.jpg" alt="shane">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Shane Warne
+                                </h3>
+                                <p>
+                                    INSTRUCTOR
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 2 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/instructor-2.jpg" alt="avelina">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Avelina Smith
+                                </h3>
+                                <p>
+                                    INSTRUCTOR
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 3 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/instructor-3.jpg" alt="john">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    John Band
+                                </h3>
+                                <p>
+                                    INSTRUCTOR
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <!-- Box 4 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/instructor-4.jpg" alt="sophia">
+                            </div>
+                            <div class="card-box-content">
+                                <h3>
+                                    Sophia Smith
+                                </h3>
+                                <p>
+                                    INSTRUCTOR
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page 9 -->
+    <section id="blog">
+        <div class="heading">
+            <p>
+                BLOG
+            </p>
+            <h2>
+                Latest News
+            </h2>
+        </div>
+        <!-- blog-card  -->
+        <div class="container-fluid">
+            <div class="blog-card">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 1 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/blog-1.jpg" alt="webs">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="details">
+                                    <i class="ri-user-fill"></i>
+                                    <p>
+                                        OMEXO
+                                    </p>
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>
+                                        20 JAN, 2022
+                                    </p>
+
+                                </h3>
+                                <h3>
+                                    Learn Webs Applications Development From Experts
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut natus esse
+                                    beatae! Similique nostrum quos eligendi excepturi repellat blanditiis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 2 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/course-2.jpg" alt="python">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="details">
+                                    <i class="ri-user-fill"></i>
+                                    <p>
+                                        OMEXO
+                                    </p>
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>
+                                        22 JAN, 2022
+                                    </p>
+
+                                </h3>
+                                <h3>
+                                    Expand Your Career Opportunities With Python
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut natus esse
+                                    beatae! Similique nostrum quos eligendi excepturi repellat blanditiis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <!-- Box 3 -->
+                        <div class="card-box">
+                            <div class="card-box-image">
+                                <img src="image/blog-3.jpg" alt="php">
+                            </div>
+                            <div class="card-box-content">
+                                <h3 class="details">
+                                    <i class="ri-user-fill"></i>
+                                    <p>
+                                        OMEXO
+                                    </p>
+                                    <i class="ri-calendar-2-line"></i>
+                                    <p>
+                                        24 JAN, 2022
+                                    </p>
+
+                                </h3>
+                                <h3>
+                                    Complete PHP Programming Career Guideline
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ut natus esse
+                                    beatae! Similique nostrum quos eligendi excepturi repellat blanditiis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- col-1 -->
+            <div class="footer-row">
+                <div class="logo">
+                    <img src="image/logo-white-1.png" alt="logo">
+                </div>
+                <p>
+                    We are providing high-quality online courses for about ten years. Our all instructors expert and
+                    highly
+                    experienced.
+                </p>
+                <h6>
+                    Follow Us
+                </h6>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-pinterest-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- col-2 -->
+            <div class="footer-row">
+                <h6>
+                    Categories
+                </h6>
+                <div class="col-list">
+                    <div class="rows">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <p>Business</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <p>Design</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <p>Development</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <p>Marketing</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-arrow-right-s-line"></i>
+                        <p>Photography</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col-3 -->
+            <div class="footer-row">
+                <h6>
+                    Recent Posts
+                </h6>
+                <div class="col-list">
+                    <div class="rows">
+                        <img src="image/blog-1.jpg" alt="">
+                        <div class="content">
+                            <p>Learn Webs Application Development from Experts</p>
+                            <div class="date">
+                                <p>
+                                    April 1, 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <img src="image/course-2.jpg" alt="">
+                        <div class="content">
+                            <p>Learn Webs Application Development from Experts</p>
+                            <div class="date">
+                                <p>
+                                    April 1, 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- col-4 -->
+            <div class="footer-row">
+                <h6>
+                    Contact Us
+                </h6>
+                <div class="col-list">
+                    <div class="rows">
+                        <i class="ri-map-pin-2-fill con"></i>
+                        <p>250/A Oval Street, Mount View, London, United Kingdom</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-mail-fill con"></i>
+                        <p>support@example.com</p>
+                    </div>
+                    <div class="rows">
+                        <i class="ri-phone-fill con"></i>
+                        <p>+98 12345 67890</p>
+                    </div>
+                    <p>Feel free to contact us</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <i class="ri-copyright-line"></i>
+            <p>
+                Copy 2022. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootsrtrap 5.2.2 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
